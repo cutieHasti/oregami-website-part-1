@@ -1,0 +1,129 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+   padding-left: 410px;
+   background-color: rgb(225, 0, 255);
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(256, 5, 200), 0 0 5px lightblue;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+ padding-left: 250px;
+ padding-right: 250px;
+ 
+ background-color: rgb(300, 200, 259);
+ text-shadow: 1px 1px 2px pink, 0 0 25px rgb(255, 0, 106), 0 0 5px lightblue;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+ padding-left: 250px;
+ padding-right: 250px;
+ 
+ background-color: rgb(255, 134, 229);
+ text-shadow: 1px 1px 2px pink, 0 0 25px rgb(255, 0, 106), 0 0 5px lightblue;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+ padding-left: 250px;
+ padding-right: 250px;
+ text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(0, 204, 255), 0 0 5px rgb(255, 255, 255);
+}
+
+h5 {
+  color: rgb(255, 44, 44);
+  padding-top: 20px;
+  font-size: 70px;
+ padding-left: 250px;
+ padding-right: 250px;
+ border: 2px solid rgb(255, 49, 135);
+  outline: #ff0080 solid 10px;
+  margin: auto;  
+
+ text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(0, 204, 255), 0 0 5px rgb(255, 255, 255);
+}
+
+
+.menu{
+    padding-left: 410px;
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+body{
+    background-color: #000000;
+  
+   
+   border-color:rgb(255, 0, 0);
+   border-style: double solid ;
+   border-top-width: 10px; 
+   margin:50px;
+ 
+}
+
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+.item:hover img{
+    background-color: #ba0000;
+    opacity:0.33;
+  
+    transition: .5s ease;
+   
+}
+
+  
+  .text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .bts{
+    position: center;
+    padding-right: 250px;
+    padding-left: 250px;
+  background-color: rgb(255, 153, 0);
+  }
+
+  .bts2{
+    position: center;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 50px;
+    background-color: rgb(255, 240, 31);
+  
+  }
+
+  .bts2{
+    position: center;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 50px;
+  
+  
+  }
+
+
+
+  
+
+  
+  
